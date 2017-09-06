@@ -36,7 +36,7 @@ The efficient data scientist.
 
 I'm going to try to keep the buzzword density low here.
 
-Data science, oversimplified, can be though of as two classes of work, **Algorithms** and **Analytics**. While analytics may not be doing algorithm design or complex modeling, those who are implementing these algorithms on real data often find themselves to analyzing data. They need to understand the biases their models have and confirm that the data is approporiate for the model.
+Data science, oversimplified, can be though of as two classes of work, **Algorithms** and **Analytics**. While analytics may not be doing algorithm design or complex modeling, those who are implementing these algorithms on real data often find themselves analyzing data. They need to understand the biases their models have and confirm that the data is approporiate for the model.
 
 What is the difference?
 -----------------------
