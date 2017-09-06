@@ -1,4 +1,4 @@
-HTN: R for Data Science
+Introduction to Tidyverse for Data Science
 ================
 Jason Liu and Clayton Halim
 9/5/2017
@@ -27,7 +27,7 @@ Including Plots
 
 You can also embed plots, for example:
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/pressure-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
@@ -51,7 +51,7 @@ Even within the realm of algorithms and machine learning, to make best models, w
 
 It turns out that the quantiles, correlation, r squared of a linear model on these data are all the same. This is a common pitfall that occur when we try modeling without... practising safe statistics.
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-1-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-1-1.png)
 
 The Standard. Tidy Data.
 ========================
@@ -483,7 +483,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy))
 ```
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-19-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-19-1.png)
 
 Here we see a negative correlation between engine size to fuel efficiency.
 
@@ -517,7 +517,7 @@ ggplot(data = mpg,
   geom_point()
 ```
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-21-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-21-1.png)
 
 The colors reveal that many of the unusual points are two-seater cars. These cars don’t seem like hybrids, and are, in fact, sports cars! Sports cars have large engines like SUVs and pickup trucks, but small bodies like midsize and compact cars, which improves their gas mileage.
 
@@ -533,7 +533,7 @@ ggplot(data = mpg,
 
     ## Warning: Removed 62 rows containing missing values (geom_point).
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-22-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-22-1.png)
 
 Check out the docs and see what other visuals we can encode using the `mapping=...` variables.
 
@@ -548,7 +548,7 @@ ggplot(data = mpg) +
   facet_wrap(~ class, nrow = 2)
 ```
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-23-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-23-1.png)
 
 Geoms
 -----
@@ -560,7 +560,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy))
 ```
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-24-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-24-1.png)
 
 ``` r
 ggplot(data = mpg) + 
@@ -569,7 +569,7 @@ ggplot(data = mpg) +
 
     ## `geom_smooth()` using method = 'loess'
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-25-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-25-1.png)
 
 ``` r
 ggplot(data = mpg, mapping=aes(x = displ, y = hwy)) + 
@@ -579,7 +579,7 @@ ggplot(data = mpg, mapping=aes(x = displ, y = hwy)) +
 
     ## `geom_smooth()` using method = 'loess'
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-26-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-26-1.png)
 
 We can do the same for having categorical plots.
 
@@ -592,7 +592,7 @@ mpg %>%
     coord_flip()
 ```
 
-![](HTN-r4ds_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-27-1.png)
+![](readme_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-27-1.png)
 
 More fun stuff.
 ---------------

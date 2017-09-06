@@ -1,5 +1,5 @@
 ---
-title: 'HTN: R for Data Science'
+title: 'Introduction to Tidyverse for Data Science'
 author: "Jason Liu and Clayton Halim"
 date: "9/5/2017"
 output: github_document
